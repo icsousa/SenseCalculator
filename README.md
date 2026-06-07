@@ -1,2 +1,2 @@
-# SenseCalculator
-# SenseCalculator
+# `SenseCalculator`
+
