@@ -127,12 +127,12 @@ def principal():
         print(f"-> Barras In-Game (Horiz/Vert):       {Cor.AMARELO}{slider_int}{Cor.VERDE} (escala 1-100)")
         
         if abs(fov_origem - fov_destino) > 0.1 or abs(ar_origem - ar_destino) > 0.01:
-            print(f"-> Barras In-Game (Ajuste Visual):    {Cor.AMARELO}{round(sense_percebida)}{Cor.VERDE} (escala 1-100)")
+            print(f"-> Barras In-Game (Ajuste Visual):    {Cor.AMARELO}{round(sense_percebida)}{Cor.VERDE} (escala 1-100){Cor.MAGENTA}")
             
     else:
         print(f"-> Sense Pura:        {Cor.AZUL}{sense_destino_real:.3f}{Cor.VERDE}")
         if abs(fov_origem - fov_destino) > 0.1 or abs(ar_origem - ar_destino) > 0.01:
-            print(f"-> Sense Percebida (Fator Visual):    {Cor.AMARELO}{sense_percebida:.3f}{Cor.VERDE}")
+            print(f"-> Sense Percebida (Fator Visual):    {Cor.AMARELO}{sense_percebida:.3f}{Cor.MAGENTA}")
 
     print("_" * 65 + f"{Cor.RESET}\n")
 
